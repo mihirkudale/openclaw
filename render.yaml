@@ -15,3 +15,5 @@ services:
         value: /tmp/workspace
       - key: OPENCLAW_GATEWAY_TOKEN
         generateValue: true # auto-generates a secure token
+      - key: NODE_OPTIONS
+        value: "--max-old-space-size=420"
